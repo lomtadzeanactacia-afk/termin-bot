@@ -1,0 +1,25 @@
+dry_run = true
+headless = true
+
+[search]
+service_group = "Aufenthaltserlaubnis"
+service       = "Erteilung Aufenthaltserlaubnis"
+book_before   = "2027-05-01"
+check_every_minutes       = 5
+night_check_every_minutes = 15
+
+[person]
+salutation  = "Frau"
+first_name  = "Anactacia"
+last_name   = "Lomtadze"
+birthday    = "2004-01-02"
+street      = "Schmollerstraße 55 A1.15"
+zip         = "74074"
+city        = "Heilbronn"
+phone       = "+4917628606893"
+email       = "anastasialomtadze7@gmail.com"
+booking_for = "Anactacia Lomtadze"
+remarks     = ""
+
+[notify]
+ntfy_topic = "anactacia-termin-q8v3m2xk7d"
